@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rule xmlns="http://websphere.ibm.com/xml/ns/wamt/binary-scanner-rule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://websphere.ibm.com/xml/ns/wamt/binary-scanner-rule binary-scanner-rule_1_0.xsd" 
+        id="DetectTreeMapPutAndTreeSetAdd" description="This is my example rule about stuff">
+    <detectMultipleCriteria>
+        <detectMethod name="put" owners="java.util.TreeMap"/>
+        <detectMethod name="add" owners="java.util.TreeSet"/>
+    </detectMultipleCriteria>
+</rule>

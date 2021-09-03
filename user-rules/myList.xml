@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rules xmlns="http://websphere.ibm.com/xml/ns/wamt/binary-scanner-rule-list" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://websphere.ibm.com/xml/ns/wamt/binary-scanner-rule-list binary-scanner-rule-list_1_0.xsd" 
+        mainCategory="Primary rule category" secondaryCategory="Secondary rule category">
+
+    <rule fileName="DetectTreeMapPutAndTreeSetAdd.xml" help="rulehelp/DetectTreeMapPutAndTreeSetAdd.html" 
+        severity="warning" devCost="0" instanceCost="0" complexity="simple" />
+</rules>
